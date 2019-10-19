@@ -6,10 +6,9 @@ def my_collect(array)
   yield(array[i])
   new_array << array[i]
   i += 1
-  binding.pry
   end
   new_array
 end
 
-
+my_collect(array) {|x| "#{x.capitalize}"
 
