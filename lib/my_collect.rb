@@ -10,5 +10,5 @@ def my_collect(array)
   new_array
 end
 
-my_collect(array) {|x| "#{x.capitalize}"
+my_collect
 
